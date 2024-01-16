@@ -5,41 +5,39 @@
 
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
 
-# In[4]:
-
-
-
-
+num =  3
+if num>0:
+    print("Es mayor a cero")
+else:
+    print("Es menor a cero")
 
 # 2) Crear dos variables y un condicional que informe si son del mismo tipo de dato
 
-# In[5]:
-
-
-
-
+num1 = 3
+#num2 = 4
+num2 = "hola"
+if type(num1)==type(num2):
+    print("Son del mismo tipo de datos")
+else:
+    print("No son del mismo tipo de datos")
 
 # 3) Para los valores enteros del 1 al 20, imprimir por pantalla si es par o impar
 
-# In[7]:
+for num in range(1,21):
+    if num%2 == 0:
+        print(num,": es par")
+    else:
+        print(num,": es impar")
 
-
-
-
-
-# 4) En un ciclo for mostrar para los valores entre 0 y 5 el resultado de elevarlo a la potencia igual a 3
+# 4) En un ciclo for mostrar para los valores entre 0 y 5 el resultado de elevarlo
+#a la potencia igual a 3
 
 # In[9]:
+for num in range(6):
+  print(num**3)
 
-
-
-
-
-# 5) Crear una variable que contenga un número entero y realizar un ciclo for la misma cantidad de ciclos
-
-# In[10]:
-
-
+# 5) Crear una variable que contenga un número entero y realizar un ciclo for 
+#la misma cantidad de ciclos
 
 
 
